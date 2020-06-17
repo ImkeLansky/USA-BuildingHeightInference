@@ -1,0 +1,27 @@
+{
+    "method": "RFR",
+
+    "db_traindata": "training",
+    "tables_traindb": ["nyc", "toronto", "wilson", "cedarcity", "stgeorge", "scio", "hoodriver", "junctioncity"],
+    "db_testdata": "results_ml",
+    "tables_testdb": ["seattle", "astoria", "portland"],
+    "labels_for_testdata": true,
+
+    "network_type": "single",
+    "save_predictions": false,
+    "save_prediction_model": false,
+
+    "test_subsets": false,
+    "feature_subset": [],
+
+    "generate_plots": false,
+
+    "model_suburbs": "./Models/model_RFR_suburbs.sav",
+    "scaler_suburbs": "./Models/scaler_RFR_suburbs.sav",
+
+    "model_cbds": "./Models/model_RFR_CBD.sav",
+    "scaler_cbds": "./Models/scaler_RFR_CBD.sav",
+
+    "model_single_network": "",
+    "scaler_single_network": ""
+}
