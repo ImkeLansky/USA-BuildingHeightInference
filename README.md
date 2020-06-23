@@ -1,7 +1,7 @@
 # USA Building Height Inference
 
 ## Introduction
-The code in this repository was developed during the graduation project of Imke Lansky for the MSc Geomatics at TU Delft, the Netherlands (for more details, the thesis is available [here: to be added]).
+The code in this repository was developed during the graduation project of Imke Lansky for the MSc Geomatics at TU Delft, the Netherlands (for more details, the thesis is available [here](http://resolver.tudelft.nl/uuid:ddcae7d1-6cc8-42a7-8c1d-a922ec7551f0)).
 
 The [USBuildingFootprints](https://github.com/microsoft/USBuildingFootprints) dataset, designed by Microsoft, is used to predict the building heights for. All footprints are characterised by nine geometric features that are derived from the footprints: *area, compacntess, complexity, length, width, slimness, number of neighbours, number of adjacent buildings,* and *number of vertices*. Furthermore, a distinction is created between two types of area morphologies: the Central Business Districts (CBDs) and the more rural and suburban areas. Based on this classification, either a split prediction model can be used or a single prediction model. The former creates a prediction model for each area morphology, while the latter only creates one prediction model and uses the area morphology as an additional feature in the training and prediction process.
 
